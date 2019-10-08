@@ -1,7 +1,5 @@
 # Problem Set 2, hangman.py
 # Name: timeshell
-# Collaborators:
-# Time spent: 10 hours
 
 # Hangman Game
 # -----------------------------------
@@ -75,7 +73,6 @@ def get_guessed_word(secret_word, letters_guessed):
     returns: string, comprised of letters, underscores (_), and spaces that represents
       which letters in secret_word have been guessed so far.
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
     guessed_word = ""
     for letter in secret_word:
         if letter not in letters_guessed:
@@ -91,8 +88,6 @@ def get_available_letters(letters_guessed):
     returns: string (of letters), comprised of letters that represents which letters have not
       yet been guessed.
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
-    #letters_all = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
     letters_all = "abcdefghijklmnopqrstuvwxyz"
     available_letters = ""
     for letter in letters_all:
@@ -126,7 +121,6 @@ def hangman(secret_word):
 
     Follows the other limitations detailed in the problem write-up.
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
     print("Welcome to the gmae Hangman!")
     print("I am thinking of a word that is ",
           len(secret_word), "letters long.")
@@ -196,7 +190,6 @@ def match_with_gaps(my_word, other_word):
         _ , and my_word and other_word are of the same length;
         False otherwise: 
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
     flag = True
     my_word = my_word.replace(" ", "")
     if len(my_word) == len(other_word):
@@ -218,7 +211,6 @@ def show_possible_matches(my_word):
              that has already been revealed.
 
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
     flag = 0
     for word in wordlist:
         if match_with_gaps(my_word, word):
@@ -255,7 +247,6 @@ def hangman_with_hints(secret_word):
 
     Follows the other limitations detailed in the problem write-up.
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
     print("Welcome to the gmae Hangman!")
     print("I am thinking of a word that is ",
           len(secret_word), "letters long.")
