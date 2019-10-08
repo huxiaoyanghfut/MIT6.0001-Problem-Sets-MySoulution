@@ -1,7 +1,5 @@
 # Problem Set 4B
-# Name: <your name here>
-# Collaborators:
-# Time Spent: x:xx
+# Name: <timeshell>
 
 import string
 from string import ascii_lowercase

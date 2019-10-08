@@ -1,7 +1,6 @@
 # 6.0001/6.00 Problem Set 5 - RSS Feed Filter
-# Name:
-# Collaborators:
-# Time:
+# Name:timeshell
+
 
 import feedparser
 import string
@@ -261,7 +260,6 @@ def main_thread(master):
         triggerlist = [t1, t4]
 
         # Problem 11
-        # TODO: After implementing read_trigger_config, uncomment this line 
         triggerlist = read_trigger_config('triggers.txt')
         
         # HELPER CODE - you don't need to understand this!

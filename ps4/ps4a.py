@@ -1,7 +1,5 @@
 # Problem Set 4A
 # Name: <timeshell>
-# Collaborators:
-# Time Spent: very long time
 
 def get_permutations(sequence):
     '''
