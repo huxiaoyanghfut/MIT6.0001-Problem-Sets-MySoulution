@@ -5,7 +5,6 @@
 #
 # Name          : <timeshell>
 # Collaborators : <>
-# Time spent    : <15 hours>
 
 import math
 import random
