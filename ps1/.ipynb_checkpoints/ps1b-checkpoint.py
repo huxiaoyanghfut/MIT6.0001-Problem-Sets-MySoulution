@@ -30,4 +30,4 @@ while current_savings < portion_down_payment:
     months += 1
     times_of_raise = (months - 1) // 6
 print("Number of months: ", months)
-    
+

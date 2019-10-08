@@ -300,37 +300,8 @@ def hangman_with_hints(secret_word):
         print("--------------------------")
         print("Sorry, you ran out of guesses. The word was", secret_word)
 
-
-# When you've completed your hangman_with_hint function, comment the two similar
-# lines above that were used to run the hangman function, and then uncomment
-# these two lines and run this file to test!
-# Hint: You might want to pick your own secret_word while you're testing.
-
 if __name__ == "__main__":
-    # pass
-
-    # To test part 2, comment out the pass line above and
-    # uncomment the following two lines.
-    """
-    secret_word = choose_word(wordlist)
-    while len(secret_word) >5:
-        secret_word = choose_word(wordlist)
-
-    #secret_word ="tact"
-    hangman(secret_word)
-
-    print(match_with_gaps("te_ t","tact"))
-    print(match_with_gaps("a_ _ le","banana"))
-    print(match_with_gaps("a_ _ le","apple"))
-    print(match_with_gaps("a_ le","apple"))
-    show_possible_matches("t_ _ t")
-    """
-
-###############
-
-    # To test part 3 re-comment out the above lines and
-    # uncomment the following two lines.
-    #
+    
     secret_word = choose_word(wordlist)
     while len(secret_word) > 5:
         secret_word = choose_word(wordlist)
